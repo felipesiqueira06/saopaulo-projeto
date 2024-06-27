@@ -8,6 +8,15 @@
 
 }
 
+p#morumbi{
+    background-image: url(morumbi.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+
+}
 
 
 *{
