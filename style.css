@@ -8,15 +8,7 @@
 
 }
 
-p#morumbi{
-    background-image: url(morumbi.jpg);
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: rgb(0, 0, 0);
 
-}
 
 
 *{
@@ -192,6 +184,25 @@ strong#lista{
  p#sp{
     padding-top: 5px;
 }
+
+section > h1{
+    padding-bottom: 8px;
+}
+
+section{
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 1.8em;
+    
+}
+
+section > p{
+    background-color: rgba(0, 0, 0, 0.658);
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+
 
 footer{
     background-color: #e11811c2;
