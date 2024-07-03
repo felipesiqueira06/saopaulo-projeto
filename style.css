@@ -182,32 +182,34 @@ strong#lista{
 }
 
  p#sp{
-    padding-top: 5px;
+    padding-top: 10px;
+    text-align: center;
 }
 
-section > h1{
-    padding-bottom: 8px;
+ h1#hino{
+    padding-bottom: 1px;
+    padding-top: 15px;
+    
 }
 
 section{
-    padding-top: 20px;
-    padding-left: 20px;
     line-height: 1.8em;
-    background-image: url(torcidaspfc.jfif);
+    background-image: url(WhatsApp\ Image\ 2024-07-02\ at\ 21.22.49.jpeg);
     background-repeat: no-repeat;
     background-size: cover ;
-    background-position: center bottom;
-    
-    
-
+    background-position: center right;
+    background-attachment: fixed;
+    margin-left: -20px;
+    margin-right: -20px;
     
 }
 
 section > p{
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.089);
     display: inline-block;
     padding: 5px;
     color: white;
+    
    
 }
 
