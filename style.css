@@ -22,7 +22,52 @@
 body{
     background-color: rgba(0, 0, 0, 0.904);
     
+    
 }
+
+aside#brc3{
+    background-color: white;
+    width: 100vw;
+}
+
+aside#brc2{
+    margin-bottom: 40px;
+    background-color: white;
+    margin-top: -40px;
+    width: 100vw;
+}
+
+aside#branco{
+    background-color: white;
+    margin-top: -32px;
+    width: 100vw;
+}
+
+aside#teste{
+  
+    background-color: rgb(0, 0, 0);
+    
+    
+    width: 100vw;
+    background-image: url(Trofeus.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+     
+      
+}
+
+aside img{
+    
+    display: block;
+    left: initial;
+    border-radius: 50%;
+
+    
+
+}
+
+
 
 header{
 text-align: center;
@@ -35,10 +80,13 @@ padding-top: 40px;
 
 header > h1{
 
+padding-top: 10px;
 margin-bottom: 20px;
 font-size: 2em;
-font-weight: normal;
-margin-bottom: 20px;
+font-weight: bold;
+margin-bottom: 5px;
+color: black;
+
 
 
 
@@ -53,6 +101,7 @@ header > p{
     margin: auto;
     padding-top: 15px;
     padding-bottom: 50px;
+    color: black;
     
 }
 
@@ -65,9 +114,10 @@ span#menu{
 }
 
 nav{
-    background-color: var(--cor03);
+    background-color: rgb(27, 27, 27);
     
     padding: 10px;
+
 }
 
 nav > a{
