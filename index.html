@@ -18,11 +18,11 @@
     </header>
 <nav>
     <span id="menu" class="material-symbols-outlined">
-        menu
+        <button id="puxa_menu">menu</button>
         </span>
-    <a href="https://ge.globo.com/futebol/times/sao-paulo/" target="_blank">Notícias</a>
-    <a href="https://www.saopaulofc.net/calendario-de-jogos/" target="_blank">Jogos</a>
-    <a href="https://www.saostore.com.br/" target="_blank">Lojas</a>
+    <a class="menu_pag" href="https://ge.globo.com/futebol/times/sao-paulo/" target="_blank">Notícias</a>
+    <a class="menu_pag" href="https://www.saopaulofc.net/calendario-de-jogos/" target="_blank">Jogos</a>
+    <a class="menu_pag" href="https://www.saostore.com.br/" target="_blank">Lojas</a>
 </nav>
     <main>
         <article>
@@ -35,7 +35,7 @@
 
                 <picture>
                     <source media="(max-width: 630px )" srcset="titulo1-pq.jpg">
-                   <img src="titulo1.jpg" alt="O primeiro título">
+                   <img id="img_t1" src="imagens/titulo1.jpg" alt="">
                 </picture>
                         
      <h1>O surgimento do Estádio Morumbi</h2>
@@ -47,7 +47,7 @@
                 <p>O dia 17 de junho de 1992 não sai da memória do torcedor tricolor. Foi nesta data, no Morumbi, que o São Paulo bateu o Newell's Old Boys, da Argentina, nos pênaltis (3 a 2) e conquistou a Libertadores da América pela primeira vez. A Taça Libertadores da América de 1993, foi vencida pelo clube brasileiro São Paulo, que venceu na final o clube chileno Universidad Católica.A última conquista do time do Morumbi no principal torneio de clubes da América do Sul foi em 2005. Na edição, o São Paulo derrotou o Athletico-PR na decisão e se tornou o primeiro time do Brasil a vencer a competição <strong>três vezes</strong>.</p>
                 <picture>
                     <source media="(max-width: 630px )" srcset="images.-pq-jpg-libertadores.jpg">
-                    <img src="images.jpg-libertadores.jpg" alt="Título da Libertadores">
+                    <img id="img_lib" src="imagens/images.-pq-jpg-libertadores.jpg" alt="Título da Libertadores">
                 </picture>
                 <h2>O Tri-Mundial</h2>
                 <p id="mundial">São Paulo é o clube brasileiro com <strong>mais títulos mundiais</strong> reconhecidos pela Fifa. São três: 1992, conquista em cima do poderoso <strong> Barcelona</strong>  com uma vitória de virada por 2 a 1. Na final de 1993, o São Paulo vence o <strong>Milan</strong> por 3x2 e se torna bicampeão Mundial, igualando na epóca o Santos de Péle. Em 2005 o Clube se tornou o <strong>único</strong> time brasileiro <strong>Tri-Mundial</strong>, em um jogo contra o gigante  Inglês <strong>Liverpool</strong>, o Tricolor venceu por 1x0.</p>
@@ -116,6 +116,8 @@
             remember_me
             </span></a> 
     </footer>
+
+    <script src="sp.js"></script>
     
 </body>
 </html>
